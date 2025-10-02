@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(#111 , #222);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: red;
+    position: absolute;
+    z-index: -1;
+    clip-path: circle(40% at right 70%);
+}
+.container{
+    position: relative;
+    background: #242424;
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.container header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container header .logo{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.container header ul{
+    display: flex;
+}
+.container header ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.container header ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.container header ul li a:hover{
+    color: #a10000;
+}
+.content{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .text{
+    color: white;
+    width: 40%;
+}
+.content .text h2{
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.content .text p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1.2px;
+}
+.content button{
+    background: white;
+    color:  #242424;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: .2s;
+}
+.content button:hover{
+    background: #a10000;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.content .image{
+    width: 40%;
+}
+.content .image img{
+    width: 400px;
+}
+
+@media (min-width: 950px) and (max-width: 1150px){
+    .content .image img{
+        width: 330px;
+    }
+}
+@media (max-width: 950px){
+    .content , .container header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content .text , .content .image{
+        width: 80%;
+    }
+    .content .image img{
+        width: 330px;
+    }
+    body::after{
+        clip-path: circle(40% at bottom);
+    }
+
+}
