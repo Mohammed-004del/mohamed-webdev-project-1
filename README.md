@@ -13,7 +13,7 @@ A modern and responsive landing page built with **HTML, CSS**.
 🔗 [View Demo](https://mohammed-004del.github.io/mohamed-webdev-project-1/)
 
 ## 📸 Screenshots  
-![Project Screenshot](images/Adidas.png) 
+![Project Screenshot](Adidas.png) 
 
 ## 🛠️ Technologies  
 - HTML5  
