@@ -22,4 +22,4 @@ A modern and responsive landing page built with **HTML, CSS**.
 ## ⚙️ Installation  
 1. Clone the repo  
    ```bash
-   git clone https://github.com/username/landing-page.git
+   git clone https://github.com/Mohammed-004del/mohamed-webdev-project-1.git
