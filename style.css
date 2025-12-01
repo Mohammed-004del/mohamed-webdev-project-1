@@ -62,7 +62,7 @@ body::after{
 .container header ul{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 50px;
 }
 
 .container header ul li{
