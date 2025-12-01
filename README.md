@@ -1,7 +1,7 @@
 # 🎯 Landing Page  
 
 A modern and responsive landing page built with **HTML, CSS**.  
-[!Banner](Adidas.png)
+![Banner](Adidas.png) 
 
 ## 🚀 Features  
 - Fully responsive design  
