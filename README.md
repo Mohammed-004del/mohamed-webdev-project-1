@@ -1,8 +1,7 @@
-# mohamed-webdev-project-1
-Landing Page for Adidas Shoes
 # 🎯 Landing Page  
 
 A modern and responsive landing page built with **HTML, CSS**.  
+[!Banner](Adidas.png)
 
 ## 🚀 Features  
 - Fully responsive design  
